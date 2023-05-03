@@ -7,3 +7,5 @@ var knex = require('knex')({
         database: 'dbnodejs'
     }
 })
+
+module.exports = knex
